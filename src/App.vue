@@ -1,27 +1,37 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <Strat/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import Strat from './components/StratRoulette.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld,
+    Strat,
   },
 });
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@font-face {
+  font-family: Valorant;
+  src: url("valorant_font.ttf");
+}
+
+:root {
+  --background: hsl(0, 0%, 7%);
+  --text: hsl(36, 100%, 98%);
+  --accent1: hsl(348, 43%, 23%);
+  --accent2: hsl(355, 54%, 48%);
+  --accent3: hsl(354, 98%, 63%);
+  --accent4: hsl(216, 31%, 31%);
+}
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: 'Roboto Condensed', sans-serif;
 }
 </style>
