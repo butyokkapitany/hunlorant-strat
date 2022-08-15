@@ -1,6 +1,6 @@
 {
   "name": "hunlorant-strat",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -13,7 +13,6 @@
     "vue": "^3.2.13"
   },
   "devDependencies": {
-    "@types/electron-devtools-installer": "^2.2.0",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "@vue/cli-plugin-babel": "~5.0.0",
