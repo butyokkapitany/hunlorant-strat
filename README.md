@@ -1,24 +1,23 @@
-# hunlorant-strat
+# Magyar Valorant Strat Roulette
+Magyar nyelvű Valorant Strat Roulette weboldal Vue és Typescript használatával.
+További szabályokat, ötleteket szívesen fogadok.
 
-## Project setup
+## Projekt függőségek telepítése
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Élő előnézet
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Fordítás és optimalizálás
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Lint
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
